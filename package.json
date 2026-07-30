@@ -1,0 +1,17 @@
+{
+  "name": "step-in-freelance-marketplace",
+  "version": "1.0.0",
+  "description": "Premium Freelancing Marketplace built with Node.js, Express, SQLite, HTML5, CSS3, and ES2025 JS",
+  "main": "backend/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node backend/server.js",
+    "seed": "node database/seed.js",
+    "dev": "node backend/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7"
+  }
+}
